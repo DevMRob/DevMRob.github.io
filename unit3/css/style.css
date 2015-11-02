@@ -1,0 +1,23 @@
+body	{
+	background-color: #0D2642;
+}
+h1	{
+	color: #DBEEFF;
+	text-align: center;
+	font-family: Shadows Into Light;
+	font-size: 70px;
+}
+p	{
+	color: #DBEEFF;
+	text-align: center;
+}
+#slogan	{
+	font-style: italic;
+	text-transform: capitalize;
+	font-size: 20px;
+}	
+.slogan-transform	{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
