@@ -1,0 +1,147 @@
+.wrapper {
+	/*width: 960px;*/
+	width: 77%;
+	height: auto;
+	margin: 10px auto;
+	border: 1px orange solid;
+}
+header {
+	height: 217px;
+	text-align: center;
+	margin-top: 10px;
+}
+hr {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10px;
+	background-color: #FFA500;
+	color: #FFA500;
+	border: 0 none;
+	margin: 30px auto;
+}
+body {
+	font-family: Helvetica Neau, Helvetica, sans-serif;
+	color: #404040;
+	font-size: 20px;
+}
+.bodytext {
+	max-width: 700px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+h3 {
+	font-style: italic;
+}
+.special {
+	color: orange;
+	text-align: center;
+}
+li {
+	line-height: 2em;
+	list-style-type: disc;
+}
+p {
+	text-align: center;
+}
+.bold {
+	font-weight: bold;
+	margin: 50px auto;
+}
+.color-highlight {
+	color: #FFA500;
+	font-weight: bold;
+}
+#2coaches {
+	text-decoration: underline;
+}
+.center {
+	list-style-position: inside;
+	text-align: center;
+	margin: 50px auto;
+}
+.bold-italic {
+	font-style: italic;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.just-img {
+	display: block;
+	margin: 50px auto 50px auto;
+}
+.some-bold {
+	font-weight: bold;
+}
+.calendar {
+	max-width: 85%;
+	display: block;
+	margin: 50px auto;
+}
+.no-center {
+	text-align: left;
+	font-weight: bold;
+	font-style: italic;
+}
+.button {
+	display: block;
+	margin: 0 auto;
+}
+.present {
+	display: inline-block;
+	float: left;
+}
+.coaches {
+	width: 800px;
+	height: auto;
+	font-size: 16px;
+	border: 5px #C0C0C0 solid;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding: 0,20px,20px,20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h2 {
+	text-align: center;
+}
+.coach-pic {
+	width: 231px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.coach-bio {
+	text-align: justify;
+
+}
+.fb-event {
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+}
+.disclaimer {
+	font-size: 12px;
+}
+.footer {
+	height: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+@media all and (max-width: 900px) and (min-width: 500) {
+	body {
+		font-size: 16px;
+	}
+}
+
+
