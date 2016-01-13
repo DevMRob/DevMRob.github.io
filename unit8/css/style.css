@@ -1,0 +1,115 @@
+html	{
+	background: url(https://s3-us-west-1.amazonaws.com/webcodingpractice/Sunset-Cliffs.jpg);
+	/*background-size: 1300px 600px;*/
+	background-size: 1300px;
+	background-repeat: no-repeat;
+}
+.wrapper {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+header {
+	/*background-color: #FFED74;*/
+	border: 1px white solid;
+	padding: 20px;
+}
+nav	{
+	/*background-color: #E8C66A;*/
+}
+aside {
+	/*background-color: #FFC675;*/
+}
+article {
+	/*background-color: #E89C6C;*/
+}
+footer {
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	clear: both;	
+	position: absolute;
+	bottom: 0;
+}
+div {
+	/*background-color: #FFE2B8;*/
+}
+h1	{
+	color: #000000;
+	text-align: center;
+	font-family: Shadows Into Light;
+	font-size: 70px;
+	margin-top: -10px;
+}
+p	{
+	color: #000000;
+	text-align: center;
+}
+#slogan	{
+	font-family: Pompiere;
+	text-transform: capitalize;
+	color: #000000;
+	font-size: 24px;
+	margin-top: -40px;
+	text-align: center;
+}	
+.slogan-transform	{
+	text-transform: uppercase;
+}
+#three_column	{
+	/*background-color: #FFB7CF;
+	margin: 0 auto;
+	padding: 20px;*/
+	color: #ffffff;
+	border: 1px black solid;
+}
+
+#Left	{
+	/*background-color: #E582A2;*/
+	text-align: center;
+	/*background-color: violet;*/
+	border: 3px white solid;
+	padding: 10px;
+	float: left;
+	margin: 18px;
+	width: 340px;
+	height: 200px;
+}
+#Center {
+	/*background-color: #FFE2B8;*/
+	text-align: center;
+	/*background-color: blue;*/
+	border: 3px white solid;
+	padding: 10px;
+	float: left;
+	margin: 18px;
+	width: 340px;
+	height: 200px;
+}
+#Right {
+	/*background-color: #E55B88;*/
+	text-align: center;
+	/*background-color: pink;*/
+	border: 3px white solid;
+	padding: 10px;
+	float: left;
+	margin: 18px;
+	width: 340px;
+	height: 200px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+@media screen only and (min-width: 500px)	{
+	body {
+		font-size: 12px;
+	}
+	}
+}
+
+
+
